@@ -1,0 +1,14 @@
+{
+	"P(IILness=No)": 0.625,
+	"P(IILness=Yes)": 0.375,
+	"P(City=Dallas|IILness=No)": 0.4,
+	"P(City=Dallas|IILness=Yes)": 0.6667,
+	"P(City=NYC|IILness=No)": 0.6,
+	"P(City=NYC|IILness=Yes)": 0.3333,
+	"P(Gender=Male|IILness=No)": 0.6,
+	"P(Gender=Male|IILness=Yes)": 0.6667,
+	"P(Gender=Female|IILness=No)": 0.4,
+	"P(Gender=Female|IILness=Yes)": 0.3333,
+	"N(Income|IILness=No)": [79559.8, 25931.9447],
+	"N(Income|IILness=Yes)": [68386.6667, 34617.4346]
+}

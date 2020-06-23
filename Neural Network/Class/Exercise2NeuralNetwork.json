@@ -1,0 +1,11 @@
+{
+	"Input": [{"Id": "Input Neuron 1","Weights": [1,1,1,1,1], "Axon": 5}, {"Id": "Input Neuron 2","Weights": [1,1,1,1,1], "Axon": 5}, {"Id": "Input Neuron 3","Weights": [1,1,1,1,1], "Axon": 5}, {"Id": "Input Neuron 4","Weights": [1,1,1,1,1], "Axon": 5}],
+	"Hidden": [[{"Id": "Hidden Neuron 1,1","Weights": [0.63051,-0.776402,0.976269,0.89871,0.41611], "Axon": 5}, {"Id": "Hidden Neuron 1,2","Weights": [1.546669,-0.655583,2.86796,2.364215,2.787404], "Axon": 5}, {"Id": "Hidden Neuron 1,3","Weights": [0.2419,-0.7107,-0.7839,-0.358,-0.853], "Axon": 5}, {"Id": "Hidden Neuron 1,4","Weights": [-0.767,-0.859,-0.4605,-0.9031,-0.4946], "Axon": 5}, {"Id": "Hidden Neuron 1,5","Weights": [0.3755,-0.895,-0.7824,-0.2856,-0.4873], "Axon": 5}], [{"Id": "Hidden Neuron 2,1","Weights": [0.305307,-0.480047,0.187396,-0.9463,-0.1071,0.8521], "Axon": 5}, {"Id": "Hidden Neuron 2,2","Weights": [1.704445,0.570394,-3.729751,0.8217,-0.6951,0.6335], "Axon": 5}, {"Id": "Hidden Neuron 2,3","Weights": [-1.675426,-0.833364,3.810889,0.6455,0.1442,-0.8782], "Axon": 5}, {"Id": "Hidden Neuron 2,4","Weights": [-0.271161,-0.639235,1.12964,0.9767,-0.4521,0.3904], "Axon": 5}, {"Id": "Hidden Neuron 2,5","Weights": [-0.175315,-0.361512,-1.799885,0.8033,-0.5459,-0.2594], "Axon": 5}], [{"Id": "Hidden Neuron 3,1","Weights": [-0.803216,-1.254549,-1.097262,-0.628085,-0.11415,-0.326678], "Axon": 1}, {"Id": "Hidden Neuron 3,2","Weights": [-1.325493,0.064481,-3.617909,2.98935,0.649072,-1.201936], "Axon": 1}, {"Id": "Hidden Neuron 3,3","Weights": [-0.879411,-0.670111,-1.127248,-0.790461,-1.178651,0.037893], "Axon": 1}, {"Id": "Hidden Neuron 3,4","Weights": [-1.741689,-0.396212,-0.069834,-1.766242,-1.227518,0.270002], "Axon": 1}, {"Id": "Hidden Neuron 3,5","Weights": [-0.969911,-0.386003,-3.054279,2.44772,0.386693,-1.428781], "Axon": 1}]],
+	"Output": [{"Id": "Output Neuron 1","Weights": [0.369366,0.058117,-3.523845,0.195709,0.358469,-2.681894], "Axon": 1}],
+	"numHiddenLayers": 3,
+	"numInputLayerNeurons": 4,
+	"numHiddenLayerNeurons": 5,
+	"numOutputLayerNeurons": 1,
+	"learningFactor": 0.5,
+	"numInteractions": 5000
+}

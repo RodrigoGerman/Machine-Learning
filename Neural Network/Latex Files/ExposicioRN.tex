@@ -1,0 +1,84 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+
+\title{Algoritmos de  Machine Learning}
+\author{Presenta: German Lopez Rodrigo}
+\centering
+\date{Junio 2020}
+\begin{document}
+
+\maketitle
+\begin{frame}{Redes Neuronales}
+\begin{itemize}
+\item Descripción del Problema
+\item Objetivo
+\item Fuente de Datos
+\item Descripción del Código
+\item Demostración
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Redes Neuronales}
+\framesubtitle{Descripción del problema}
+La diabetes mellitus es una enfermedad que en las últimas décadas ha mostrado el alto grado de incidencia y prevalencia en los sistemas de salud publica a nivel mundial, especialmente en el continente Americano, es por este motivo que requieren implementar nuevos algoritmos y técnicas que sean capaces de proporcionar un diagnóstico temprano sobre las pacientes con el fin de que sean tratados de forma eficiente y rápida.\\
+\end{frame}
+
+\begin{frame}{Redes Neuronales}
+\framesubtitle{Objetivo}
+\\ \\ Determinar una Red Neuronal que ayude en la detección oportuna de Diabetes Mellitus.\\
+\end{frame}
+
+\begin{frame}{Redes Neuronales}
+\framesubtitle{Fuente de Datos - Diabetes}
+Diabetes es una fuente de datos que consta de 768 observaciones y 8 características numéricas. Cabe aclarar que la fuente de datos fue dividida en dos conjuntos: un conjunto de 500 observaciones para construir la red neuronal y otro conjuntó de 268 observaciones para realizar las pruebas de la red neuronal.\\
+\end{frame}
+
+\begin{frame}{Redes Neuronales}
+\framesubtitle{Descripción del Código}
+La red neuronal es construida a partir de un algoritmo desarrollado en lenguaje Python, a continuación se explica el proceso que sigue el algoritmo para la construcción de la red neuronal.\\
+\end{frame}
+
+\begin{frame}{Redes Neuronales}
+\framesubtitle{Descripción del Código - Etapa de Construcción}
+En esta etapa el algoritmo se encarga de construir la red neuronal para esto el primer paso que realiza el algoritmo es ensamblar y unir cada capa de la red neuronal con la finalidad de tener en memoria la red neuronal.\\
+
+\begin{equation}
+    \sigma(x) = \frac{1}{1+e^{-x}}
+\end{equation}
+    
+\begin{equation}
+    \sigma(x)' = \sigma(x)(1-\sigma(x))
+\end{equation}
+\end{frame}
+
+\begin{frame}{Redes Neuronales}
+\framesubtitle{Descripción del Código - Etapa de Procesamiento de Datos}
+
+En esta etapa el algoritmo se encarga de realizar el entrenamiento de la red neuronal, para esto se realiza una propagación hacia adelante de cada uno los valores entrada con el objetivo de obtener el valor generado por la red neuronal.\\
+\end{frame}
+
+\begin{frame}{Redes Neuronales}
+\framesubtitle{Descripción del Código - Etapa de Procesamiento de Datos}
+
+Para la actualización de los pesos se utiliza el algoritmo de retropropagación el cual nos permite ir propagando el error hacia atrás con la finalidad de poder ir actualizando de forma equitativa los pesos de cada neurona pertenecientes cada capa de la red neuronal.
+
+\begin{equation} \label{eq3}
+    w_i \leftarrow w_i+\eta(y-o)o(1-o)x_i
+\end{equation}          
+    
+\begin{equation} \label{eq4}
+        w_i \leftarrow w_i+\eta*o(1-o)\sum_{i}{w_i*error_i}
+\end{equation}       
+\end{frame}
+
+
+\begin{frame}{Redes Neuronales}
+\framesubtitle{Descripción del Código - Etapa de Resultados}
+\\ En esta última etapa lo que realiza el algoritmo es pasar una nueva fuente de datos por la red neuronal para obtener los resultados. Debido a que en la etapa de entrenamiento se encontraron los pesos idóneos para cada arco de la red neuronal lo único que se realiza es ir realizando las multiplicaciones de las salidas de cada neurona con los pesos ya establecidos.
+\end{frame}
+
+\begin{frame}
+\huge{\centerline{Gracias}}
+\end{frame}
+
+\end{document}

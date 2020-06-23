@@ -1,0 +1,17 @@
+{
+	"P(Species=IrisVirginica)": 0.2653,
+	"P(Species=IrisVersicolor)": 0.4082,
+	"P(Species=IrisSetosa)": 0.3265,
+	"N(SepalLengthCm|Species=IrisVirginica)": [6.4538, 0.6135],
+	"N(SepalLengthCm|Species=IrisVersicolor)": [5.915, 0.5131],
+	"N(SepalLengthCm|Species=IrisSetosa)": [4.9906, 0.3301],
+	"N(SepalWidthCm|Species=IrisVirginica)": [2.8885, 0.2694],
+	"N(SepalWidthCm|Species=IrisVersicolor)": [2.735, 0.3062],
+	"N(SepalWidthCm|Species=IrisSetosa)": [3.4125, 0.3389],
+	"N(PetalLengthCm|Species=IrisVirginica)": [5.4462, 0.5351],
+	"N(PetalLengthCm|Species=IrisVersicolor)": [4.245, 0.4995],
+	"N(PetalLengthCm|Species=IrisSetosa)": [1.4719, 0.1772],
+	"N(PetalWidthCm|Species=IrisVirginica)": [2.0077, 0.2934],
+	"N(PetalWidthCm|Species=IrisVersicolor)": [1.325, 0.2046],
+	"N(PetalWidthCm|Species=IrisSetosa)": [0.2406, 0.0896]
+}

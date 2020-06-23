@@ -1,0 +1,11 @@
+{
+	"Input": [{"Id": "Input Neuron 1","Weights": [1,1], "Axon": 2}, {"Id": "Input Neuron 2","Weights": [1,1], "Axon": 2}],
+	"Hidden": [[{"Id": "Hidden Neuron 1,1","Weights": [5.506146,-4.087938,-3.695222], "Axon": 1}, {"Id": "Hidden Neuron 1,2","Weights": [-2.974972,2.088593,2.539865], "Axon": 1}]],
+	"Output": [{"Id": "Output Neuron 1","Weights": [-0.800274,9.32436,-5.590484], "Axon": 1}],
+	"numHiddenLayers": 1,
+	"numInputLayerNeurons": 2,
+	"numHiddenLayerNeurons": 2,
+	"numOutputLayerNeurons": 1,
+	"learningFactor": 0.1,
+	"numInteractions": 100000
+}

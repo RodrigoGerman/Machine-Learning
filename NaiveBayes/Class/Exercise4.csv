@@ -1,0 +1,9 @@
+Inncome,JobTime,CreditCard,CriminalRecord,Loan
+15,2,Yes,Yes,No
+25,2,Yes,No,Yes
+35,0.5,Yes,No,No
+40,4,No,No,No
+60,3,Yes,No,Yes
+65,10,Yes,No,Yes
+75,10,Yes,No,Yes
+100,1,Yes,Yes,No

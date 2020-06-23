@@ -1,0 +1,16 @@
+{
+	"P(Loan=No)": 0.5,
+	"P(Loan=Yes)": 0.5,
+	"N(Inncome|Loan=No)": [47.5, 31.7214],
+	"N(Inncome|Loan=Yes)": [56.25, 18.8331],
+	"N(JobTime|Loan=No)": [1.875, 1.3405],
+	"N(JobTime|Loan=Yes)": [6.25, 3.7666],
+	"P(CreditCard=Yes|Loan=No)": 0.75,
+	"P(CreditCard=Yes|Loan=Yes)": 1.0,
+	"P(CreditCard=No|Loan=No)": 0.25,
+	"P(CreditCard=No|Loan=Yes)": 0.0,
+	"P(CriminalRecord=Yes|Loan=No)": 0.5,
+	"P(CriminalRecord=Yes|Loan=Yes)": 0.0,
+	"P(CriminalRecord=No|Loan=No)": 0.5,
+	"P(CriminalRecord=No|Loan=Yes)": 1.0
+}

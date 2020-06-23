@@ -1,0 +1,14 @@
+{
+	"P(MovieType=Terror)": 0.3333,
+	"P(MovieType=Comedy)": 0.3333,
+	"P(MovieType=Action)": 0.3333,
+	"P(Sex=F|MovieType=Terror)": 0.5,
+	"P(Sex=F|MovieType=Comedy)": 0.0,
+	"P(Sex=F|MovieType=Action)": 1.0,
+	"P(Sex=M|MovieType=Terror)": 0.5,
+	"P(Sex=M|MovieType=Comedy)": 1.0,
+	"P(Sex=M|MovieType=Action)": 0.0,
+	"N(Time|MovieType=Terror)": [15.0, 5.0],
+	"N(Time|MovieType=Comedy)": [72.5, 27.5],
+	"N(Time|MovieType=Action)": [60.0, 10.0]
+}
