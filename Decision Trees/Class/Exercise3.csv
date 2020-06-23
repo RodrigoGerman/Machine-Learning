@@ -1,0 +1,8 @@
+Participacion,Punt_Y_Asist,Aprovechamiento,Nota
+Media,NoAsiste,Excelente,Exento
+Alta,Asiste,Bueno,Exento
+Media,NoAsiste,Bueno,Final
+Baja,NoAsiste,Bueno,Final
+Alta,Asiste,Regular,Final
+Baja,Asiste,Deficiente,Extraordinario
+Media,NoAsiste,Regular,Extraordinario

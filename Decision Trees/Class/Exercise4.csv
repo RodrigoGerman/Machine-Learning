@@ -1,0 +1,15 @@
+Ambiente,Temp,Humedad,Viento,Clase
+soleado,alta,alta,no,N
+soleado,alta,alta,si,N
+nublado,alta,alta,no,P
+lluvioso,media,alta,no,P
+lluvioso,baja,normal,no,P
+lluvioso,baja,normal,si,N
+nublado,baja,normal,si,P
+soleado,media,alta,no,N
+soleado,baja,normal,no,P
+lluvioso,media,normal,no,P
+soleado,media,normal,si,P
+nublado,media,alta,si,P
+nublado,alta,normal,no,P
+lluvioso,media,alta,si,N

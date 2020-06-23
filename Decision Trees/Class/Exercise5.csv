@@ -1,0 +1,8 @@
+size,colour,shape,option
+medium,blue,brick,yes
+small,red,sphere,yes
+large,green,pillar,yes
+large,green,sphere,yes
+small,red,wedge,no
+large,red,wedge,no
+large,red,pillar,no
